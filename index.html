@@ -4,20 +4,41 @@
         <title>Tables</title>
     </head>
     <body>
+
+        <a href="form.html">Go to the next page</a>
+        
         <table border="1">
+            <thead>
             <tr>
                  <th></th><th>First</th> <th>Second</th> <th>Third</th>
             </tr>
+            </thead>
+            <tbody>
             <tr>
-                <th>Row</th><td>1</td><td>2</td><td>3</td>
+                <th>Row</th><td>1</td><td>2</td><td rowspan="3">3</td>
             </tr>
              <tr>
-                <th>Row</th><td>4</td><td>5</td><td>6</td>
+                <th>Row</th><td>4</td><td>5</td>
             </tr>
              <tr>
-                <th>Row</th><td>7</td><td>8</td><td>9</td>
+                <th>Row</th><td>7</td><td>8</td>
             </tr>
+            </tbody>
+            <tfoot>
+                 <tr>
+                <th>Summery</th><td colspan="3">7</td>
+            </tr>
+            </tfoot>
         </table>
-
+        <ul type="square">
+            <li>First</li>
+            <li>Second</li>
+        </ul>
+        <ol type="a" start="50" reversed>
+            <li>First</li>
+            <li>Second</li>
+            <li>First</li>
+            <li>Second</li>
+        </ol>
     </body>
 </html>

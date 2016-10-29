@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Forms</title>
+    </head>
+    <body>
+        <form method="POST" action="https://formspree.io/marta.bzl@gmail.com">
+            <label for="name">Name</label> 
+            <input type="text" name="name" id="name"> 
+            <br>
+            <label for="email" required>Email</label>
+            <input type="email" name="email" id="email">
+            <br>
+            <label for="car" required>Car</label>
+            <input type="car" name="car" id="car" pattern="[A-Z]{2}[0-9]{4}[A-Z]{2}" title="AA1234BB" placeholder="AA1234BB">
+            <br>
+            <label for="comment">Name</label>
+            <textarea name="comment" id="comment"></textarea>
+            <br>
+           <input type="submit" name="email" value="send">
+            
+        </form>
+    </body>
+</html>
